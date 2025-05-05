@@ -1,0 +1,85 @@
+.about-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  text-align: center; /* Центрування вмісту */
+}
+
+.about-title,
+.about-section-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #6a4c9c; /* Фіолетовий */
+  margin-bottom: 1rem;
+}
+
+.about-subtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #6a4c9c; /* Фіолетовий */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-paragraph {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify; /* Щоб текст читався зручно */
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  color: #6a4c9c;
+  margin-bottom: 1rem;
+}
+
+.project-card a {
+  font-size: 1rem;
+  color: #6a4c9c;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-card a:hover {
+  color: #5e2a8a; /* Темніший фіолетовий */
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+  }
+}
