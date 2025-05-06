@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MariiaHudymenko/MyPortfolio_React/static/css/main.82a359b0.css",
+    "main.js": "/MariiaHudymenko/MyPortfolio_React/static/js/main.5dda0c5d.js",
+    "static/js/453.acca0757.chunk.js": "/MariiaHudymenko/MyPortfolio_React/static/js/453.acca0757.chunk.js",
+    "index.html": "/MariiaHudymenko/MyPortfolio_React/index.html",
+    "main.82a359b0.css.map": "/MariiaHudymenko/MyPortfolio_React/static/css/main.82a359b0.css.map",
+    "main.5dda0c5d.js.map": "/MariiaHudymenko/MyPortfolio_React/static/js/main.5dda0c5d.js.map",
+    "453.acca0757.chunk.js.map": "/MariiaHudymenko/MyPortfolio_React/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a359b0.css",
+    "static/js/main.5dda0c5d.js"
+  ]
+}
